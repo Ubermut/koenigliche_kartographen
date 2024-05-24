@@ -1,0 +1,95 @@
+{
+  "id": "koenigliche_kartographen",
+  "title": "Königliche Kartographen",
+  "description": "Königliche Kartographen",
+  "url": "https://github.com/Ubermut/koenigliche_kartographen",
+  "manifest": "https://github.com/Ubermut/koenigliche_kartographen/releases/latest/download/module.json",
+  "download": "https://github.com/Ubermut/koenigliche_kartographen/releases/latest/download/module.zip",
+  "authors": [
+    {
+      "name": "Simon"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "kartographen_notizen",
+      "label": "KK Notizen",
+      "path": "packs/kartographen_notizen",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kartographen_charaktere",
+      "label": "KK Charaktere",
+      "path": "packs/kartographen_charaktere",
+      "type": "Actor",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kartographen_szenen",
+      "label": "KK Szenen",
+      "path": "packs/kartographen_szenen",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kartographen_abenteuer",
+      "label": "KK Abenteuer",
+      "path": "packs/kartographen_abenteuer",
+      "type": "Adventure",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kartographen_items",
+      "label": "KK Gegenstände",
+      "path": "packs/kartographen_items",
+      "type": "Item",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kartographen_npc",
+      "label": "KK NPC",
+      "path": "packs/kartographen_npc",
+      "type": "Actor",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kartographen_schiffe",
+      "label": "KK Schiffe",
+      "path": "packs/kartographen_schiffe",
+      "type": "Actor",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}

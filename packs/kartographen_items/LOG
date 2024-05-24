@@ -1,0 +1,7 @@
+2024/05/24-07:50:34.003 1f74 Recovering log #481
+2024/05/24-07:50:34.016 1f74 Delete type=0 #481
+2024/05/24-07:50:34.016 1f74 Delete type=3 #480
+2024/05/24-07:56:51.520 190c Level-0 table #485: started
+2024/05/24-07:56:51.520 190c Level-0 table #485: 0 bytes OK
+2024/05/24-07:56:51.527 190c Delete type=0 #483
+2024/05/24-07:56:51.547 190c Manual compaction at level-0 from '!items!BWOX60fcyMb2A7rT' @ 72057594037927935 : 1 .. '!items.effects!BWOX60fcyMb2A7rT.blxdcKK3EzIJBX6e' @ 0 : 0; will stop at (end)
