@@ -10,7 +10,7 @@
       "name": "Simon"
     }
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "10",
     "verified": "12"
@@ -90,6 +90,28 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "kartographen_wuerfeltabellen",
+      "label": "KK Würfeltabellen",
+      "path": "packs/kartographen_wuerfeltabellen",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dsa5"
+    },
+    {
+      "name": "kartographen_wiedergabelisten",
+      "label": "KK Wiedergabelisten",
+      "path": "packs/kartographen_wiedergabelisten",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dsa5"
     }
   ]
 }
